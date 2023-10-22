@@ -1,0 +1,399 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/iran-sans/IRANSansWeb_Bold.eot?7626d015e15844db7d1f54c8e415461a);
+  src: url(../fonts/iran-sans/IRANSansWeb_Bold.eot?7626d015e15844db7d1f54c8e415461a)
+      format("embedded-opentype"),
+    url(../fonts/iran-sans/IRANSansWeb_Bold.woff2?6ec03a37e370c0d7f4f6bbdba0feac23)
+      format("woff2"),
+    url(../fonts/iran-sans/IRANSansWeb_Bold.woff?a762a767a3459fec2195da1373ebf0b1)
+      format("woff"),
+    url(../fonts/iran-sans/IRANSansWeb_Bold.ttf?4ff441e3b8c51acd2261585feca1d8c8)
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/iran-sans/IRANSansWeb_Medium.eot?1121c0520a30a7295ffe21dd3fe77a60);
+  src: url(../fonts/iran-sans/IRANSansWeb_Medium.eot?1121c0520a30a7295ffe21dd3fe77a60)
+      format("embedded-opentype"),
+    url(../fonts/iran-sans/IRANSansWeb_Medium.woff2?bb6a9fe5edb6791184821d992bffdcf4)
+      format("woff2"),
+    url(../fonts/iran-sans/IRANSansWeb_Medium.woff?74e2ab212452657f2fc66bd08873884b)
+      format("woff"),
+    url(../fonts/iran-sans/IRANSansWeb_Medium.ttf?7a75459b25fca9937df9110d7e049133)
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/iran-sans/IRANSansWeb_Light.eot?60f95f28d8469e5df0398ba1d3e9708e);
+  src: url(../fonts/iran-sans/IRANSansWeb_Light.eot?60f95f28d8469e5df0398ba1d3e9708e)
+      format("embedded-opentype"),
+    url(../fonts/iran-sans/IRANSansWeb_Light.woff2?414e7148a634bfc82a601e3dacf84e96)
+      format("woff2"),
+    url(../fonts/iran-sans/IRANSansWeb_Light.woff?469a8f6aa5b4631045b7d922102392ac)
+      format("woff"),
+    url(../fonts/iran-sans/IRANSansWeb_Light.ttf?53a90b39dae08e4e4539ca2ce0cb3a68)
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/iran-sans/IRANSansWeb_UltraLight.eot?b8efb89efe7dc02c439a362d17c9dc5e);
+  src: url(../fonts/iran-sans/IRANSansWeb_UltraLight.eot?b8efb89efe7dc02c439a362d17c9dc5e)
+      format("embedded-opentype"),
+    url(../fonts/iran-sans/IRANSansWeb_UltraLight.woff2?5010d0152420ca7bd3acb1a9d668a57e)
+      format("woff2"),
+    url(../fonts/iran-sans/IRANSansWeb_UltraLight.woff?153b7b5a1579526611373210b6fd8754)
+      format("woff"),
+    url(../fonts/iran-sans/IRANSansWeb_UltraLight.ttf?eeb1edcad9b20c19bd1eecd1c371e4f8)
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/iran-sans/IRANSansWeb.eot?e43cfbc1a67d90e910398ded8345cd32);
+  src: url(../fonts/iran-sans/IRANSansWeb.eot?e43cfbc1a67d90e910398ded8345cd32)
+      format("embedded-opentype"),
+    url(../fonts/iran-sans/IRANSansWeb.woff2?c6f46673e2449eb071e2c098c5190c2a)
+      format("woff2"),
+    url(../fonts/iran-sans/IRANSansWeb.woff?df14582918ca379a280e453bb3cc6ba5)
+      format("woff"),
+    url(../fonts/iran-sans/IRANSansWeb.ttf?ac22d187130d6c3433a49a1e98bfa968)
+      format("truetype");
+}
+
+body,
+button,
+input,
+textarea,
+select,
+.btn,
+.sidebar__input,
+.header__input,
+.field__input,
+.checkbox__text,
+.notifications__input,
+.popup__upload,
+.popup__input,
+.actions__input {
+  font-family: "IRANSans", "Inter", sans-serif !important;
+}
+.video_guide {
+  float: right;
+}
+.sidebar {
+  left: 0;
+  border-right: 1px solid #e4e4e4;
+}
+.sidebar__mail .sidebar__close {
+  right: 16px;
+}
+.header__item_lang .header__body {
+  right: -15px;
+}
+.header__logo {
+  margin-right: auto;
+}
+.header_border:before {
+  right: 425px;
+}
+.header__search {
+  margin-right: auto;
+}
+.header__start {
+  right: 0;
+}
+.header__group {
+  margin-left: auto;
+}
+.card__next {
+  right: 16px;
+}
+.mfp-close {
+  right: 0;
+}
+.popup_settings .mfp-close {
+  top: 24px;
+  right: 32px;
+}
+.popup_settings .mfp-close {
+  right: 32px;
+}
+.popup__btns .popup__btn:not(:last-child),
+.popup__loading:not(:last-child) {
+  margin-right: 8px;
+}
+.wallets__btns {
+  right: 32px;
+}
+.wallets__close {
+  right: 0;
+}
+.wallets__group {
+  right: 32px;
+  left: 640px;
+}
+.field__max {
+  right: 0;
+}
+.notifications .dropdown {
+  right: 0;
+}
+.notifications .dropdown__body {
+  left: -16px;
+  right: auto;
+}
+.activity__close {
+  right: 0;
+}
+.dropdown__link:before {
+  left: 0;
+}
+
+.details__burger {
+  right: 0;
+}
+@media only screen and (max-width: 1419px) {
+  .page__col:nth-child(2) {
+    border: none;
+  }
+  .activity__sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
+  .activity__close {
+    top: 26px;
+    right: 24px;
+  }
+}
+
+.sort {
+  position: relative;
+  /* padding-left: 18px; */
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.sort::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  width: 11px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% auto;
+}
+
+.sort.Asc {
+  color: #0a30b6;
+}
+
+.sort.Asc::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='16' viewBox='0 0 14 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.300049 6.7L1.70005 8.1L6.00005 3.8V16H8.00005V3.8L12.3 8.1L13.7 6.7L7.00005 0L0.300049 6.7Z' fill='%234FBF67'/%3E%3C/svg%3E%0A");
+}
+
+.sort.Desc {
+  color: #ff7a68;
+}
+
+.sort.Desc:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='16' viewBox='0 0 14 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.300049 9.3L1.70005 7.9L6.00005 12.2V0H8.00005V12.2L12.3 7.9L13.7 9.3L7.00005 16L0.300049 9.3Z' fill='%23FF7A68'/%3E%3C/svg%3E%0A");
+}
+
+@media only screen and (max-width: 1023px) {
+  .sidebar {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .page.toggle .page__content {
+    -webkit-transform: translateX(255px);
+    -ms-transform: translateX(255px);
+    transform: translateX(255px);
+  }
+  .popup_settings .mfp-close {
+    right: 24px;
+  }
+  .notifications .dropdown {
+    top: 113px;
+    right: auto;
+    left: 20px;
+  }
+  .notifications .dropdown__body {
+    left: -16px;
+    right: auto;
+  }
+}
+/*----price modal section style*/
+
+.prices__details {
+  left: 85px;
+  position: absolute;
+}
+
+.prices_logo {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+.prices__info {
+  margin-bottom: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.33333;
+  font-weight: 500;
+}
+
+.prices__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+.priceButton {
+  background: #99e6ff;
+  margin-left: 40%;
+}
+.prices__close {
+  position: absolute;
+  top: 29px;
+  width: 35px;
+  height: 35px;
+  right: 20px;
+  font-size: 0;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*---success_deposit---*/
+#message1 {
+  margin-top: -0.5em;
+  color: #757575;
+
+  /*float:left;*/
+  font-family: IRANSans;
+  font-size: 13px;
+}
+.success__div {
+  /*border: 1px solid #E4E4E4;*/
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: left;
+  padding: 20px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: IRANSans;
+}
+.pay {
+  float: right;
+  margin-left: 2px;
+}
+/* .popup-label {
+  margin-bottom: 16px;
+  font-size: 10px;
+  line-height: 1.33333;
+  font-weight: 500;
+  color: red;
+  float: right;
+} */
+.popup-label {
+  margin-top: 14px;
+  font-size: 10px;
+  line-height: 1.33333;
+  font-weight: 500;
+  color: #218838;
+  border-bottom: 1px solid #08ff002b;
+  float: left;
+}
+@media only screen and (width< 768px) {
+  .popup__btn1 {
+    margin-left: -80px;
+  }
+}
+
+.deposit_info {
+  padding: 30px;
+  margin: 10px;
+  background: #1985a1;
+  border-radius: 10px;
+  float: right !important;
+  font-size: 12px;
+  color: #f4f4f4;
+  font-family: IRANSans;
+  margin-right: -8px;
+}
+.popup__fieldset1 {
+  margin-bottom: 20px;
+  /* width: 40%;  changed */
+  float: left !important;
+}
+
+/* login_register veryfi ------------------------------*/
+
+.login__preview {
+  position: absolute;
+  top: 119px;
+  left: 216px;
+  width: 550px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* alert */
+
+/* @media only screen and (min-width: 768px) {
+  
+    .custom_b_alert_style{
+        width: 83%;
+        margin-left: 16.8%;
+    }
+    
+  } */
+
+.promotions__box .promotions__details_custom {
+  margin: 0px 20px;
+  border-left: 1px solid #ccc;
+  padding: 0 10px;
+}
+.action_lable {
+  left: auto;
+  right: 0 !important;
+}
+
+.popup__label_custom {
+  position: absolute;
+  right: 40px;
+  border-bottom: 1px solid #3de3db;
+  padding: 0 4px;
+  border-radius: 10px;
+  color: #2b46cb;
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: -5px;
+}
+.list_router:hover {
+  margin-left: 3px;
+}
